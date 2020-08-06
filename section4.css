@@ -1,0 +1,39 @@
+.icon
+{
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    color: #166abe;
+    font-size: 40px;
+    transition: 0.4s;
+    border-radius: 50%; 
+}
+.icon:hover
+{
+    background: #2c3e50;
+    color: white;
+    text-decoration: none;
+}
+.special
+{
+    color: rgb(196, 20, 93);
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    font-size: 40px;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+.special:hover
+
+    {
+        background: #2c3e50;
+        color: white;
+        text-decoration: none;
+    }

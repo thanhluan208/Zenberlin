@@ -1,0 +1,103 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right,rgb(17, 17, 17),rgb(31, 31, 31),rgb(48, 48, 48),rgb(31, 31, 31),rgb(17, 17, 17));
+    overflow-x: hidden;
+}
+.heading
+{
+    height: 100vh;
+    background-image:  linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.2)),url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    
+}.logo
+{
+    position: relative;
+    top: 15%;
+}
+.text
+{
+    color: #fff;
+    height: 100vh;
+    font-size: 50px;
+
+}
+.heading .logo small
+{
+    font-family: 'Dancing Script', cursive;
+}
+.heading .navbar .navbar-brand
+{
+    font-size: 40px;
+}
+.nav-link
+{
+    font-size: 25px;
+    color: #fff !important;
+}
+.nav-link:after
+{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+    
+}
+.nav-link:hover:after 
+{
+    width: 100%;
+    transition: width .3s;
+} 
+.nav-link:hover
+{
+    color: rgb(216, 96, 48) !important;
+    transition-delay: 0.5s;
+}
+::-webkit-scrollbar
+{
+    width: 0;
+}
+#scrollPath
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    background: rgba(255, 255, 255, 1);
+}
+#progressbar
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(to top,#f19142,#cc742c,#d3762a,#cc742c,#cc742c);
+}
+#progressbar:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top,#f19142,#cc742c,#d3762a,#cc742c,#cc742c);
+    filter: blur(10px);
+}
+#progressbar:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top,#f19142,#cc742c,#d3762a,#cc742c,#cc742c);
+    filter: blur(30px);
+}
